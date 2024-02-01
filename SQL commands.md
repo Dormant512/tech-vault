@@ -1,29 +1,30 @@
 #generic
 # DDL Data Definition Language
-- [[CREATE]]
-- [[DROP]]
-- [[ALTER]]
-- [[TRUNCATE]]
-- [[COMMENT]]
-- [[RENAME]]
+```dataview
+LIST
+FROM #ddl-command 
+```
 
 # DQL Data Query Language
-- [[SELECT]]
+```dataview
+LIST
+FROM #dql-command 
+```
 
 # DML Data Manipulation Language
-- [[INSERT]]
-- [[UPDATE]]
-- [[DELETE]]
-- [[LOCK]]
-- [[CALL EXPLAIN PLAN]]
+```dataview
+LIST
+FROM #dml-command 
+```
 
 # DCL Data Control Language
-- [[GRANT]]
-- [[REVOKE]]
+```dataview
+LIST
+FROM #dcl-command 
+```
 
 # TCL Transaction Control Language
-- [[BEGIN]]
-- [[COMMIT]]
-- [[ROLLBACK]]
-- [[SAVEPOINT]]
-- [[SET TRANSACTION]]
+```dataview
+LIST
+FROM #tcl-command 
+```

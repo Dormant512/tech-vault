@@ -1,4 +1,4 @@
-#generic #postgres 
+#generic #postgres #dql-command
 
 `SELECT` is a DQL command that lets the user select some data from one or more tables.
 
